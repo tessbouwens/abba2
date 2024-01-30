@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(249, 224, 186);
+    color: #a24803;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    border: 6px solid rgb(231, 168, 112);
+    background-color: rgb(243, 194, 45);
+    list-style: none;
+}
+
+li {
+    margin: 2em;
+}
+
+li:hover {
+    background-color: rgb(231, 168, 112);
+    background-size: 10em;
+    height: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "copperplate";
+    color: #de8948;
+    background-color: rgb(231, 168, 112);
+}
+
+p {
+    line-height: 1.2em;
+    size: 2em;
+}
+
+.fotofilm {
+    width: 15em;
+    height: 16em;
+}
+
+h1 {
+    color: #de8948;
+    width: 50%;
+    margin-left: 43%;
+}
+
+.flex {
+    display: flex;
+}
+
+.leden {
+    width: 20em;
+    height: 20em;
+}
+
+.section1 {
+    display: block;
+}
+
+.section1 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.section1 p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #a24803;
+    padding-top: 1.5em;
+}
+
+.div1 {
+    display: flex;
+}
+
+.dynamos {
+    width: 15em;
+    height: 15em;
+}
+
+.donna {
+    width: 15em;
+    height: 15em;
+}
+
+.youngdynamos {
+    width: 15em;
+    height: 15em;
+}
+
+.section2 {
+    display: block;
+}
+
+.section2 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #a24803;
+    padding-bottom: 2em;
+}
+
+.div2 {
+    display: flex;
+}
+
+
+.section3 {
+    display: block;
+}
+
+.section3 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.section3 p {
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    color: #a24803;
+    padding-top: 1.5em;
+}
+
+.section_leden {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.section_leden article {
+    width: 24vw;
+}
+
+.secvoyage {
+    display: flex;
+    font-size: 20px;
+    color: #a24803;
+    padding-top: 1.5em;
+    justify-content: center;
+}
+
+.voyagetess {
+    width: 26em;
+    height: 20em;
+    justify-content: left;
+}
+
+.voyage {
+    width: 27.5em;
+    height: 20em;
+    justify-content: right;
+}
+
+.abbavoyage {
+    width: 30em;
+    height: 20em;
+}
+
+.logo {
+    animation: rotation 2s infinite linear;
+    height: 10em;
+    width: 10em;
+    display: block;
+    margin: auto;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+
+    }
+}
+
+.voyagep {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.filmp {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-style: unset;
+    font-size: 1.2em;
+}
